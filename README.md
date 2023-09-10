@@ -1,10 +1,11 @@
-Este es un proyecto personal - PW para chats.
+Chat - tipo Discord con Next.js, React, Prisma, Tailwind, MySQ.
 
 ## Comenzamos
 
 Dev Server:
 
 ```bash
+npm i
 npm run dev
 ```
 
@@ -26,10 +27,14 @@ Documentación
 - [Next.js](https://nextjs.org/docs) - Documentación sobre Next.js y API.
 - [Clerk](https://clerk.com/docs/quickstarts/nextjs) - Documentación sobre Clerk, manejo de usuarios y autenticación.
 - [Shadcn](https://ui.shadcn.com/docs/components) - Documentación sobre Shadcn -  Componentes diseñados con Radix UI y Tailwind CSS.
-- [Prisma](https://app.planetscale.com/s) - Overview de base de datos en Prisma
+- [Planetscale | Prisma](https://app.planetscale.com/s) - Overview de base de datos con PlanetScale, utilizando Prisma
 
  ...
 
  ## Características
 
- - Login
+- Login
+- Light / Dark Mode
+- Autenticación con Clerk
+- UI utilizando TailwindCSS y ShadcnUI
+- ORM utilizando Prisma
